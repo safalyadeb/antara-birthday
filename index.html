@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#f9d5e0"><meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="description" content="A special birthday surprise for Antara ❤️">
+<meta property="og:title" content="Happy Birthday, Antara ❤️"><meta property="og:description" content="A little surprise made just for you.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎂</text></svg>">
+<title>Happy Birthday, Antara ❤️</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,700;1,500&family=Dancing+Script:wght@600&family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css"></head>
+<body>
+<div id="intro"><div class="half left"></div><div class="half right"></div><div class="stars"></div>
+<div class="ct" id="ct"><p class="tiny">Psst… a little surprise is waiting for</p><h1 class="nm">Antara</h1><p class="tiny">and it's only for you 🔒</p><button class="btn" id="begin">Tap to Begin 💝</button></div>
+<div class="count" id="count"></div></div>
+<canvas id="fw"></canvas>
+<div class="cursor" id="cursor"></div>
+<canvas id="confetti"></canvas>
+<div id="fx"></div><div class="progress" id="progress"></div>
+
+<nav class="nav"><button class="burger" id="burger" aria-label="Menu">☰</button>
+<div class="links" id="links"><a href="#hero">Home</a><a href="#about">About</a><a href="#gallery">Memories</a><a href="#letter">Letter</a><a href="#cake">Cake</a><a href="#wishes">Wishes</a></div>
+<div class="music"><button id="play" aria-label="Play or pause music">♪ Play</button><button id="mute" aria-label="Mute">🔊</button></div></nav>
+
+<section id="hero" class="full">
+  <p class="script">Hey Antara! ❤️</p>
+  <h1 class="rise">Today is all about you…</h1>
+  <div class="frame hero-frame"><img src="assets/antara-2.jpeg" alt="Antara"></div>
+  <h2 class="glow">HAPPY BIRTHDAY, BEAUTIFUL! 🎂</h2>
+  <button class="btn" id="open">Open Your Surprise ✨</button>
+</section>
+
+<div class="strip" id="strip" aria-hidden="true"><div class="track" id="track"></div></div>
+<section id="about" class="full reveal"><div class="glass">
+  <span class="flower">✿</span>
+  <h2>Someone as special as you deserves a special day.</h2>
+  <p>Some people have a beautiful way of making the world around them brighter. Today is your day, Antara. I hope your smile never fades, your dreams keep growing, and life gives you countless reasons to be happy.</p>
+</div></section>
+
+<section id="gallery" class="pad"><h2 class="title reveal">Beautiful Memories</h2>
+<div class="grid" id="grid"></div></section>
+
+<section id="letter" class="full reveal"><h2 class="title">A Little Letter For You 💌</h2>
+  <div class="env" id="env" tabindex="0" role="button" aria-label="Open the letter">
+    <div class="paper"><p id="type"></p></div>
+    <div class="flap"></div><div class="body"></div><div class="seal">❤</div>
+  </div><p class="hint" id="hint">Tap the envelope</p></section>
+
+<section id="cake" class="full reveal"><h2 class="title">Make a Wish, Antara! ✨</h2>
+  <div class="cake"><div class="candles"><i><b></b></i><i><b></b></i><i><b></b></i></div>
+  <div class="l l1"></div><div class="l l2"></div><div class="l l3"></div><div class="plate"></div></div>
+  <button class="btn" id="blow">Blow Out the Candles 🕯️</button>
+  <p class="wishmsg" id="wishmsg">May all your wishes come true! ❤️</p></section>
+
+<section id="wishes" class="pad"><h2 class="title reveal">Things I Wish For You</h2>
+<div class="cards" id="cards"></div></section>
+
+<section id="final" class="full finale">
+  <h2 class="big reveal">Happy Birthday Once Again, Antara! ❤️</h2>
+  <p class="script reveal">May your life always be as beautiful as your smile.</p>
+  <div class="collage" id="collage"></div>
+  <button class="btn" id="again">Celebrate Again 🎉</button>
+</section>
+
+<div class="lightbox" id="lb"><button id="lbx" aria-label="Close">✕</button><img id="lbimg" alt=""><p id="lbcap"></p></div>
+<script src="script.js"></script></body></html>
